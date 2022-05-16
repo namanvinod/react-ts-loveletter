@@ -2,6 +2,10 @@ import React, { Fragment } from 'react';
 import './Login.css';
 
 const Login = () => {
+  const handleLogin = () => {
+    console.log('Test');
+  };
+
   return (
     <Fragment>
       <div className="login-container">
@@ -14,7 +18,7 @@ const Login = () => {
           <label>Password:</label>
           <input type="password" />
         </div>
-        <button>Login</button>
+        <button onClick={handleLogin}>Login</button>
       </div>
     </Fragment>
   );
