@@ -5,7 +5,12 @@ import './style.css';
 export default function App() {
   return (
     <div className="app-container">
-      <Login />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="dashboard" element={<Dashboard />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
