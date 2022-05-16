@@ -9,7 +9,7 @@ const Dashboard = () => {
   return (
     <Fragment>
       <div className="dashboard-container">
-        <button>Create New Game</button>
+        <button className="create-btn">Create New Game</button>
         {/* <button onClick={handleJoinGame}>Join A Game</button> */}
         <CurrentOpenGames />
       </div>
