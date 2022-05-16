@@ -13,6 +13,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="dashboard" element={<Dashboard />} />
+          <Route path="join-game" element={<Dashboard />} />
         </Routes>
       </BrowserRouter>
     </div>
