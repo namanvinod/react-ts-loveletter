@@ -1,0 +1,31 @@
+.login-container {
+  /* margin: 20px 0px; */
+  margin: 0px 50px;
+}
+
+h2 {
+  /* margin: 0px 50px; */
+  margin: 20px 0px;
+}
+
+.login-row {
+  margin: 20px 0px;
+}
+
+.login-row label {
+  font-weight: bold;
+  font-size: large;
+}
+
+.login-row input {
+  margin: 10px;
+  display: inline-block;
+  padding-top: 5px;
+  width: 140px;
+}
+
+.login-container button {
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: large;
+}
